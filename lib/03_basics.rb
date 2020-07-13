@@ -19,3 +19,9 @@ end
 def array_42(list)
     return list.include?(42)
 end
+
+def magic_array(stuff)
+
+    return stuff.flatten.map {|y| y * 2}.delete_if{|w| w%3 == 0}.sort.uniq
+        
+end
