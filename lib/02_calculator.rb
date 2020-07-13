@@ -22,3 +22,8 @@ def power (a,b)
     return a ** b 
 end
        
+def factorial(n)
+    
+return (1..n).inject(1) {|r,i| r*i }
+ 
+end
