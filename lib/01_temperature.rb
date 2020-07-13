@@ -1,8 +1,9 @@
+def ftoc(fahrenheit)
+    celsius = (fahrenheit- 32) * 5 / 9
+return celsius 
+end
 
-
-def
-    puts "Please enter temperature in fahrenheit:"
-temperature = gets.to_f
-celsius = (temperature - 32) * 5 / 9
-puts "Temperature in celsius: #{celsius}" 
+def ctof(celsius)
+    fahrenheit = (celsius *9.0/5.0) + 32
+    return fahrenheit
 end
